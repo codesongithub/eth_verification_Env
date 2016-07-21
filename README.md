@@ -1,6 +1,15 @@
+Aim- To create a simple environment which had Generator,BFM and a mailbox as interface
+-Generator generates 10 packets of 3 types- good,bad and ill and pushes to mailbox
+-BFM receives generated packets from mailbox.
+
+Learnings:
+-OOP- object creation, inheritence and mailbox
+-SV- mailbox and modules 
+-Verification- ENV concepts
+- 
 # eth_verification_Env
-Hello_world_kind_of_Ethernet_verification_environment
-This work demonstrate a simple verification SV based( not UVM) environment. Feature are
+-Hello_world_kind_of_Ethernet_verification_environment
+-This work demonstrate a simple verification SV based( not UVM) environment. Feature are
 - eth_pkt.sv-->as Object.Ethernet packet is considered as object ( as transaction)
 - eth_gen.sv-->as Generator. generates 10 packets. packets could be good,bad,ill
 - eth_bfm.sv-->as BFM. Receives packet from genearator via mailbox
