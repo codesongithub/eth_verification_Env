@@ -17,9 +17,9 @@
 
 How to run
 - Simulation transcript is genrated for Questa sim
-- do run.do --> use this command at questsim command promt
+- do run.do --> use this command at questsim command prompt
 OR
-- executes commmands in run.do one by one
+- Execute commmands in run.do
 
 further queries at btnaveenkumar@gmail.com
 
